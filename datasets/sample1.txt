@@ -1,5 +1,2 @@
-cat > datasets/sample1.txt << 'EOF'
-Cryptography is the science of secure communication.
-This is the first sample file.
-CryptoLabX will analyze this file.
-EOF
+Cryptography protects information by converting readable text into a secure form.
+This project will build a reusable cryptanalysis toolkit throughout the semester.
