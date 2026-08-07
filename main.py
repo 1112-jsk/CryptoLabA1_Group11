@@ -1,7 +1,7 @@
 import sys
+from utils.logger import log_execution
 
 def display_menu():
-    """Displays the main menu options for CryptoLabX."""
     print("==========================================")
     print("      CryptoLabX Framework - v1.0         ")
     print("==========================================")
@@ -16,6 +16,8 @@ def main():
     while True:
         display_menu()
         choice = input("Select an option (1-5): ").strip()
+        
+        log_execution(choice)
 
         if choice == "1":
             print("\n[+] Encrypt Module: Coming Soon!\n")
