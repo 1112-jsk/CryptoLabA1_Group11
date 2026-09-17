@@ -16,7 +16,7 @@ def decrypt(text, key):
 
 
 if __name__ == "__main__":
-    plaintext = "HELLO WORLD"
+    plaintext = "shift cipher is highly vulnerable to automated cryptanalysis because its key space is exceptionally small"
     key = 3
 
     ciphertext = encrypt(plaintext, key)

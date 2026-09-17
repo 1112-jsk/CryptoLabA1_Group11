@@ -12,7 +12,7 @@ dictionary_file = os.path.join(
     "english_words.txt"
 )
 
-ciphertext = "KHOOR ZRUOG"
+ciphertext = "vkliw flskhu lv kljkob yxoqhudeoh wr dxwrpdwhg fubswdqdobvlv ehfdxvh lwv nhb vsdfh lv hafhswlrqdoob vpdoo"
 
 dictionary = load_dictionary(dictionary_file)
 
