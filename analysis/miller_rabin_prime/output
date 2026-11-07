@@ -1,1 +1,17 @@
-
+======================================================================
+  CRYPTOGRAPHIC PRIME GENERATION USING MILLER-RABIN (512-BIT)
+======================================================================
+Assigned bit length          : 512
+Generated prime (Decimal)    : 10067625340751739904071515698183247981367894638552061894642882880514911721226402502619899066569920292066097869904718599094997392462293186525867276742283161
+Generated prime (Hex)        : 0xc03987108976e334e2817efdae8492171d53434bb88139b9ae270da702f06b90f143262fdc5c0eed8da0365bf89897b9405cacec877409a977d21e02ff01cf99
+Actual bit length            : 512
+Number of candidates tested  : 13
+Number of Miller-Rabin rounds: 20
+Bases used                   : [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71]
+Total execution time         : 0.023898 seconds
+----------------------------------------------------------------------
+VERIFICATION:
+1. Exact 512-bit check (2^511 <= n < 2^512) : True
+2. Miller-Rabin passed for all 20 bases     : True
+3. Independent SymPy isprime() verification : True
+======================================================================
